@@ -1,0 +1,242 @@
+/**
+TABLE OF CONTENTS
+* 00 - Normalize
+* 01 - Generic
+* 02 - Base Styles
+* 03 - Layout (wireframe)
+* 04 - Header & Nav
+* 05 - Content (styles)
+* 06 - Footer
+* 07 - Misc
+**/
+
+/** =========================================
+* 01 - Generic 
+=============================================
+**/
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+/** =========================================
+* 01 - Base Styles 
+=============================================
+**/
+
+h1 {
+    color:#4A4A4A;
+    font-family: "Abril Fatface";
+    font-size: 5vw;
+    margin: 5px;
+    font-weight: 100;
+}
+
+h2 {
+    color:#4A4A4A;
+    font-family: Avenir;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+h3 {
+  color:#4A4A4A;
+  font-family: "Abril Fatface";
+  font-size: 30px;
+  margin: 0px;
+  font-weight: 100;
+}
+
+.next-index-number {
+  color:#4A4A4A;
+  font-family: "Abril Fatface";
+  opacity: 0.5;
+  font-size: 15px;
+  margin: 0px;
+  font-weight: 100;
+}
+
+.logo h6 {
+  font-family: Avenir;
+  color: #4A4A4A;
+  font-weight: 900;
+  font-size: 20px;
+  /* letter-spacing: 2px; */
+  margin: 7px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.index-hr {
+  width: 1px;
+  height: 200px;
+  border: 0px;
+  background-color: #000;
+  color: #000;
+}
+
+.logo {
+  border: solid 3px #4A4A4A;
+  border-radius: 50%;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+/** =========================================
+* 01 - Layout 
+=============================================
+**/
+
+.flex {
+    display: flex;
+}
+
+.wrapper {
+    width:100vw;
+    height:100vh;
+}
+
+.bg {
+    background-image: url(https://images.unsplash.com/photo-1518081461904-9d8f136351c2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a815e999d0f593c8c8bbcb6473b0d39&auto=format&fit=crop&w=1977&q=80);
+    background-color: rgb(236, 236, 236);
+    background-size: cover;
+    background-position: left bottom;
+    max-width: 100vw;
+    height: 100vh;
+    opacity: 1;
+}
+
+.content {
+    width: 45vw;
+    height: 100vh;
+    background-color: #FFF;
+    display: flex !important;
+    flex-direction: row;
+    position: absolute;
+    left: -50vw;
+}
+
+.case-study-01 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFF;
+  display: flex !important;
+  flex-direction: row;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+.nav {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left-cs-01 {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hiker.mockup img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.index {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.scroll-arrow {
+  margin: 0;
+  font-size: 20px;
+}
+
+.scroll-text {
+  transform: rotate(-90deg);
+}
+
+.header {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cs-01-content {
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+}
+
+.title {
+  text-align: left;
+}
+
+.sub-title {
+  text-align: left;
+  width: 75%;
+  margin-top: 20px;
+}
+
+/** =========================================
+* 04 - Navigation 
+=============================================
+**/
+
+
+
+/** =========================================
+* 01 - Content 
+=============================================
+**/
+
+/** =========================================
+* 01 - Footer 
+=============================================
+**/
+
+/** =========================================
+* 01 - Misc / loading animation
+=============================================
+**/
+
+.loading-box-animation {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF;
+    position: absolute;
+    left: -100vw;
+}
+
+.hidden {
+    display: none;
+}
+
+/* notes */
+/* 0% = you can see text */
+/* 100% = you can't see text */
+
+/* 
+#title-1 {
+  display: none !important;
+}
+
+#title-2 {
+  display: none !important;
+} */
