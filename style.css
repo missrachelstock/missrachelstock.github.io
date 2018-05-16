@@ -63,7 +63,6 @@ h3 {
   color: #4A4A4A;
   font-weight: 900;
   font-size: 20px;
-  /* letter-spacing: 2px; */
   margin: 7px;
   padding-bottom: 2px;
   padding-left: 3px;
@@ -86,6 +85,14 @@ h3 {
   align-items: center;
   margin-top: 20px;
   margin-left: 25px;
+}
+
+.logo:hover {
+  background-color: #4A4A4A;
+}
+
+.logo h6:hover {
+  color: #FFF;
 }
 
 /** =========================================
@@ -125,7 +132,7 @@ h3 {
 .case-study-01 {
   width: 100vw;
   height: 100vh;
-  background-color: #FFF;
+  background-color: rgb(241, 239, 234);
   display: flex !important;
   flex-direction: row;
 }
@@ -151,8 +158,9 @@ html, body {
   justify-content: center;
 }
 
-img .hiker.mockup {
+img {
   max-width: 100%;
+  height: auto;
   margin-right: 20px;
 }
 
