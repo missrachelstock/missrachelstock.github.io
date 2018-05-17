@@ -37,7 +37,7 @@ h1 {
 h2 {
     color:#4A4A4A;
     font-family: Avenir;
-    font-size: 1vw;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -60,7 +60,7 @@ h3 {
 
 .logo h6 {
   font-family: Avenir;
-  color: #4A4A4A;
+  /* color: #4A4A4A; */
   font-weight: 900;
   font-size: 20px;
   margin: 7px;
@@ -75,6 +75,11 @@ h3 {
   border: 0px;
   background-color: #000;
   color: #000;
+  margin-top: 50px;
+}
+
+.current-index-number {
+  position: fixed;
 }
 
 .logo {
@@ -85,13 +90,14 @@ h3 {
   align-items: center;
   margin-top: 20px;
   margin-left: 25px;
+  position: fixed;
 }
 
-.logo:hover {
+.change {
   background-color: #4A4A4A;
 }
 
-.logo h6:hover {
+.txt-change {
   color: #FFF;
 }
 
@@ -129,12 +135,14 @@ h3 {
     left: -50vw;
 }
 
+
 .case-study-01 {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(241, 239, 234);
+  background-color: rgb(240, 240, 240);
   display: flex !important;
   flex-direction: row;
+  padding: 150px;
 }
 
 
@@ -166,10 +174,13 @@ img {
 
 .index {
   display: flex;
+  position: fixed;
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 250px;
+  margin-left: 35px;
+  width: 30px;
 }
 
 .scroll-arrow {
@@ -190,6 +201,26 @@ img {
   flex-direction: column;
   justify-content: center;
   width: 50vw;
+}
+
+.cs-01-info {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+button.view-case-01 {
+  border: 1px solid #4A4A4A;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: transparent;
+  font-size: 10px;
+}
+
+button.view-case-01:hover {
+  background-color: #4A4A4A;
+  color: white;
 }
 
 .title {
