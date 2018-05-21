@@ -26,6 +26,14 @@ TABLE OF CONTENTS
 =============================================
 **/
 
+.homepage {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
 h1 {
     color:#4A4A4A;
     font-family: "Abril Fatface";
@@ -47,6 +55,14 @@ h3 {
   font-size: 30px;
   margin: 0px;
   font-weight: 100;
+}
+
+h4 {
+  color:#4A4A4A;
+  font-family: Avenir;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .next-index-number {
@@ -135,6 +151,10 @@ h3 {
     left: -50vw;
 }
 
+.case-study-section {
+  scroll-snap-coordinate: 50% 50%;
+}
+
 
 .case-study-01 {
   width: 100vw;
@@ -146,8 +166,9 @@ h3 {
 }
 
 
-html, body {
-  height: 100%;
+body {
+  width: 100%;
+  height: auto;
 }
 
 .nav {
@@ -233,6 +254,88 @@ button.view-case-01:hover {
   margin-top: 20px;
 }
 
+.hiker-wrapper {
+}
+
+.hiker {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0px 120px;
+}
+
+.par {
+  align-content: flex-end;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.par-element {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.hiker-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.intro-stuff {
+  margin: 30px;
+}
+
+.abstract {
+  width: 70%;
+  margin-right: 20px;
+  padding-right: 50px;
+}
+
+.resources {
+  width: 30%;
+  padding: 25px 50px;
+  background-color: rgb(247, 247, 247);
+}
+
+
+.wireframing {
+  vertical-align: baseline;
+  align-items: center;
+}
+
+.wireframing h2 {
+  margin-left: 10px;
+}
+
+.brand-identity {
+  vertical-align: baseline;
+  align-items: center;
+}
+
+.brand-identity h2 {
+  margin-left: 10px;
+}
+
+.caffeine {
+  vertical-align: baseline;
+  align-items: center;
+}
+
+.caffeine h2 {
+  margin-left: 10px;
+}
+
+.mounts {
+  width: 100%;
+  height: auto;
+  z-index: -100;
+  position: relative;
+  margin-top: -350px;
+}
+
 /** =========================================
 * 04 - Navigation 
 =============================================
@@ -279,3 +382,5 @@ button.view-case-01:hover {
 #title-2 {
   display: none !important;
 } */
+
+
