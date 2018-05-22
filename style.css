@@ -230,16 +230,20 @@ img {
   width: 30vw;
 }
 
-button.view-case-01 {
+.view-case-01 {
   border: 1px solid #4A4A4A;
+  font-family: Avenir;
   padding: 10px 30px;
   margin-top: 20px;
   margin-bottom: 50px;
   background-color: transparent;
   font-size: 10px;
+  text-decoration: none;
+  width: 120px;
+  text-align: center;
 }
 
-button.view-case-01:hover {
+.view-case-01:hover {
   background-color: #4A4A4A;
   color: white;
 }
@@ -370,7 +374,7 @@ button.view-case-01:hover {
 
 .black-box {
   width: 100%;
-  height: 500px;
+  height: auto;
   background-color: #4A4A4A;
 }
 
@@ -408,23 +412,12 @@ button.view-case-01:hover {
     display: none;
 }
 
-/* notes */
-/* 0% = you can see text */
-/* 100% = you can't see text */
-
-/* 
-#title-1 {
-  display: none !important;
-}
-
-#title-2 {
-  display: none !important;
-} */
 
 /*this isn't working so that's cool */
 @media (max-width: 500px) {
   .par {
     display: inline-block;
+    border-bottom: none;
   }
   .hiker-title {
     height: 20vh;
@@ -437,11 +430,28 @@ button.view-case-01:hover {
   }
   .abstract {
     width: 100%;
+
   }
   .compass {
     display: none;
   }
   .iphone-info {
     display: none;
+  }
+  .hiker {
+    margin: 5px;
+  }
+  .black-box {
+    display: none;
+  }
+  .mounts {
+    margin-top: -100px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .par-element {
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 20px;
   }
 }
